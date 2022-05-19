@@ -101,7 +101,7 @@ except:
     join_com_ = f'ERROR.'
 
 try:
-    client.join_chat(chatId=chatId)
+    sub_client.join_chat(chatId=chatId)
     join_chat_ = 'OK.'
 except:
     join_chat_ = f'ERROR.'
